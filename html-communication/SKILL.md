@@ -36,4 +36,4 @@ When the user asks for variants:
 - Give user the URL after created
 2 tabs:
 - a seperate tab in this html to explain in Techinal Style
-- a seperate tab in this html to explain again in Bro ASD-STE100 Output Style
+- a seperate tab in this html to explain again in Bro Unslop Output Style

@@ -1,4 +1,4 @@
-﻿# Antigravity Skills
+# Antigravity Skills
 
 Curated collection of custom skills for Google Antigravity & AI Agent coding workflows.
 
@@ -19,6 +19,7 @@ Curated collection of custom skills for Google Antigravity & AI Agent coding wor
 | `i-have-adhd` | ADHD-friendly action-first output and numbered steps. |
 | `ponytail` | Extreme YAGNI and lazy senior dev engineering. |
 | `ponytail-review` | Code review focused exclusively on eliminating over-engineering. |
+| `show-me` | Visual explanations with diagrams, sketches, and HTML artifacts. |
 | `test-driven-development` | Test-driven development workflows and verification. |
 | `unslop` | Cut AI tells, buzzwords, and corporate slop from text. |
 
