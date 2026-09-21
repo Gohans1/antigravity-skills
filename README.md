@@ -6,9 +6,6 @@ Curated collection of custom skills for Google Antigravity & AI Agent coding wor
 
 | Skill | Description |
 |---|---|
-| `ast-grep` | Structural search and rewrite via AST patterns. |
-| `babysit-pr` | Monitor, rebase, and watch PRs until merge. |
-| `caveman` | Compressed communication mode cutting token usage. |
 | `code-review-and-quality` | Multi-axis code review before merging changes. |
 | `doubt-driven-development` | Adversarial review and verification for high-stakes decisions. |
 | `file-pr` | Create, open, and file GitHub pull requests cleanly. |
@@ -16,12 +13,12 @@ Curated collection of custom skills for Google Antigravity & AI Agent coding wor
 | `git-workflow-and-versioning` | Trunk-based git workflow, atomic commits, versioning practices. |
 | `grilling` | Stress-test plans, decisions, and ideas interactively. |
 | `html-communication` | Interactive communication via rendered HTML documents. |
-| `i-have-adhd` | ADHD-friendly action-first output and numbered steps. |
+| `impeccable` | Frontend design, redesign, polish, typography, layout, and UX craftsmanship. |
 | `ponytail` | Extreme YAGNI and lazy senior dev engineering. |
-| `ponytail-review` | Code review focused exclusively on eliminating over-engineering. |
-| `show-me` | Visual explanations with diagrams, sketches, and HTML artifacts. |
+| `skill-creator` | Create, evaluate, benchmark, and optimize custom Antigravity skills. |
 | `test-driven-development` | Test-driven development workflows and verification. |
 | `unslop` | Cut AI tells, buzzwords, and corporate slop from text. |
+| `vercel-brand-guidelines` | Official Vercel typography, layout craft, and visual design standards. |
 
 ## Quick Install on a New Machine
 
