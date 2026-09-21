@@ -58,7 +58,7 @@ When the user asks for variants:
 - Trong trường hợp nếu có sẵn ảnh hoặc nếu dùng ảnh làm visual thì sẽ hiệu quả hơn? -> dùng nó
 - `🗣️ TÓM LƯỢC & Ý CHÍNH 🗣️` Respond only, đặt trong Callout, center. `max-width`: 40rem
 #### Card Visual
-- Mỗi Card: `min-height: 20rem`, `padding: 1rem 1.25rem 3rem`, `overflow: visible`
+- Mỗi Card: `min-height: 30rem`, `padding: 3.5rem 1.5rem 6rem`, `overflow: visible`
 - Annotation: Viền nét đứt (dashed) khoanh phần tử + nhãn nổi ở mép viền (Đỏ: lỗi cũ | Xanh: fix mới). Đồng bộ giữa 3 Cards.
 - Inspector Toggle:  `[ 🔍 Check Diff ]`:`position: fixed`; `bottom: 1.5rem`; `right: 1.5rem` : ON(default): Hiện Annotation, nhãn nổi. OFF: Ẩn
 
