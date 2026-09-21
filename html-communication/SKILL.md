@@ -57,20 +57,24 @@ When the user asks for variants:
 - ONLY ALWAYS Show use case có visual ở cả 3 Cards(Card 1 chỉ là bản copy paste của 2 Cards kia) mà bất kì người thường nào nhìn cũng thấy rõ/hiểu sự khác biệt (không khó hiểu, không technical). Ít text phân tích nhất có thể (Annotation hay Text gốc nằm trong nội dung của Visual thì không tính)
 - Trong trường hợp nếu có sẵn ảnh hoặc nếu dùng ảnh làm visual thì sẽ hiệu quả hơn? -> dùng nó
 - `🗣️ TÓM LƯỢC & Ý CHÍNH 🗣️` Respond only, đặt trong Callout, center. `max-width`: 40rem
-#### Mockup Visual
+#### Card Visual
 - Mỗi Card: `min-height: 20rem`, `padding: 1rem 1.25rem 3rem`, `overflow: visible`
-- Inspector Toggle:  `[ 🔍 Check Diff ]`:`position: fixed`; `bottom: 1.5rem`; `right: 1.5rem` : ON(default): Hiện viền, tag. OFF: Ẩn (Chỉ hiển thị ở tab Tóm Lược có chứa Mockup visual diff, tự động ẩn ở tab Giải Thích Chi Tiết)
+- Annotation: Viền nét đứt (dashed) khoanh phần tử + nhãn nổi ở mép viền (Đỏ: lỗi cũ | Xanh: fix mới). Đồng bộ giữa 3 Cards.
+- Inspector Toggle:  `[ 🔍 Check Diff ]`:`position: fixed`; `bottom: 1.5rem`; `right: 1.5rem` : ON(default): Hiện Annotation, nhãn nổi. OFF: Ẩn
 
 ### Tab Explain:
-- Nếu phải explain những thứ không liên quan đến code thì vẫn hãy cứ tuân thủ theo `Zoom-in principle`, 
-- 2 cột ngang nhau là 1 phần và phải đi kèm lẫn nhau, 1 bên nói 1 bên show, có ngăn cách divider giữa các phần rõ ràng.
+- Nếu phải explain những thứ không liên quan đến code thì vẫn hãy cứ tuân thủ theo `Zoom-in principle`
+- 2 cột ngang nhau được tính là 1 phần và đi kèm lẫn nhau, bên trái phân tích, bên phải show. Có ngăn cách divider giữa các phần rõ ràng.
 - Cột trái: Text Explain: 30rem
 - Gap giữa 2 cột: 2rem
 - Cột phải: Visual Show: 48rem
+- `Tab Explain` có thể có nhiều Tabs của riêng nó nếu cần (Tab mới đó lại có thể có nhiều tầng khác nhau, các tầng bên trong nó lại có thể có nhiều tab riêng của nó,etc...)
+
 #### Coding Explain
 - Cột phải: CẤM dồn 1 dòng & cấm văn xuôi; mỗi bước 1 dòng thụt lề 2-space + icons 📁📄; Vercel dark, syntax highlight, pre-wrap cấm scroll ngang, diff viền trái border-left.
 ##### Zoom-in principle (Coding version)
 - Trình bày từ tầng cao nhất xuống thấp, áp dụng diffs nếu cần
+- Mỗi Tầng có thể có nhiều Tabs của riêng nó nếu cần
 1. Folder level
 2. File & Components level 
 3. Function & Call Tree level 
@@ -192,7 +196,7 @@ function expandSkill(command: string): string {
 
 Place each visual next to the short text it supports. Keep only the calls, files, props, states, and boundaries needed to answer the user's current question or the options to resolve the current discussion point.
 
-# MASTER HTML SKELETON CHEAT SHEET (Hãy/Nên thông minh tùy biến theo input của user, ví dụ: Thêm Card/Tabs/Tầng/etc... nếu input quá nhiều thứ)
+# MASTER HTML SKELETON CHEAT SHEET (Hãy/Nên thông minh tùy biến/sáng tạo theo input của user, ví dụ: Thêm Card/Tabs/Annotation/Nhãn nổi/Interactive/Tầng/Text/Nội dung/etc... nếu input đơn giản/phức tạp/etc...)
 
 ```html
 <!DOCTYPE html>
