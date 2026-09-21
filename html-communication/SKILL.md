@@ -193,7 +193,7 @@ function expandSkill(command: string): string {
 
 Place each visual next to the short text it supports. Keep only the calls, files, props, states, and boundaries needed to answer the user's current question or the options to resolve the current discussion point.
 
-# MASTER HTML SKELETON CHEAT SHEET (Hãy thông minh tùy biến theo input của user, ví dụ: Thêm Card/Tabs nếu input quá nhiều thứ)
+# MASTER HTML SKELETON CHEAT SHEET (Hãy/Nên thông minh tùy biến theo input của user, ví dụ: Thêm Card/Tabs/Tầng/etc... nếu input quá nhiều thứ)
 
 ```html
 <!DOCTYPE html>
