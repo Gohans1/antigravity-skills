@@ -32,7 +32,7 @@ When the user asks for variants:
 - Keep one file across iterations.
 
 ## Rules
-- Riêng file này được phép sử dụng hack/trick lỏ (vì không liên quan gì đến production, dev dùng để có tầm nhìn bao quát dễ theo dõi task/tiến độ)để đạt được mục đích: visual rõ ràng, dễ hiểu, non-boring, bề mặt đẹp và rõ ràng nhất cho dev hứng thú là dc. Nhưng vẫn cấm cài thư viện ngoài overkill
+- Riêng file này được phép sử dụng hack/trick lỏ (vì không liên quan gì đến production, user dùng để có tầm nhìn bao quát dễ theo dõi task/tiến độ)
 - Vietnamese Language Only
 - Luôn luôn áp dụng Bro Unslop Ouput Style
 - Đặt tên theo format: `{describe}-DD-MM-YYYY` (tự fill ý chính trong {describe})
@@ -63,18 +63,18 @@ When the user asks for variants:
 - Inspector Toggle:  `[ 🔍 Check Diff ]`:`position: fixed`; `bottom: 1.5rem`; `right: 1.5rem` : ON(default): Hiện Annotation, nhãn nổi. OFF: Ẩn
 
 ### Tab Explain:
-- Nếu phải explain những thứ không liên quan đến code thì vẫn hãy cứ tuân thủ theo `Zoom-in principle`
+- Nếu phải explain những thứ không liên quan đến code thì vẫn hãy cứ tuân thủ theo `Zoom-in principle`. vì user muốn có cái nhìn bao quát nhất có thể
 - 2 cột ngang nhau được tính là 1 phần và đi kèm lẫn nhau, bên trái phân tích, bên phải show. Có ngăn cách divider giữa các phần rõ ràng.
 - Cột trái: Text Explain: 30rem
 - Gap giữa 2 cột: 2rem
 - Cột phải: Visual Show: 48rem
-- `Tab Explain` có thể có nhiều Tabs của riêng nó nếu cần (Tab mới đó lại có thể có nhiều tầng khác nhau, các tầng bên trong nó lại có thể có nhiều tab riêng của nó,etc...)
+- `Tab Explain` có thể có nhiều Tabs của riêng nó nếu cần (Tabs mới đó lại có thể có nhiều tầng khác nhau, các tầng bên trong nó lại có thể có nhiều tabs riêng của nó,etc...)
 
-#### Coding Explain
-- Cột phải: CẤM dồn 1 dòng & cấm văn xuôi; mỗi bước 1 dòng thụt lề 2-space + icons 📁📄; Vercel dark, syntax highlight, pre-wrap cấm scroll ngang, diff viền trái border-left.
-##### Zoom-in principle (Coding version)
-- Trình bày từ tầng cao nhất xuống thấp, áp dụng diffs nếu cần
+##### Zoom-in principle
 - Mỗi Tầng có thể có nhiều Tabs của riêng nó nếu cần
+- Trình bày từ tầng cao nhất xuống thấp, 
+###### Coding Version
+- Cột phải: CẤM dồn 1 dòng & cấm văn xuôi; mỗi bước 1 dòng thụt lề 2-space + icons 📁📄; Vercel dark, syntax highlight, pre-wrap cấm scroll ngang, diff viền trái border-left. 
 1. Folder level
 2. File & Components level 
 3. Function & Call Tree level 
