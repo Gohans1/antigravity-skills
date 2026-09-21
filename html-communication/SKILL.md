@@ -51,7 +51,7 @@ When the user asks for variants:
 ### Tab Summarize (Default):
 - Nếu có nhiều hơn 1 task/yêu cầu/vấn đề/thông tin/phương án/ý tưởng/câu hỏi/etc... thì hãy cứ nhét hết vào (ví dụ: 2 task -> 6 cards tương ứng (vì 1 task là 3 cards))
 - (có thể có nhiều hơn 1 nhưng)1 task/yêu cầu/vấn đề/thông tin/phương án/ý tưởng/câu hỏi/etc... phải có những Card theo thứ tự sau:
-1. Card Visual before(trái)/after(phải) dạng Comparison Slider (Swipe Diff) User có thể kéo trượt Drag & Drop qua lại để so sánh trực tiếp. Border màu trắng. content 2 bên phải giữ nguyên 100% width không bị reflow khi kéo slider (clip-path, CROP not RESIZE)
+1. Card Visual before(trái)/after(phải) dạng Comparison Slider (Swipe Diff) User có thể kéo trượt Drag & Drop qua lại để so sánh trực tiếp. Border màu trắng. content 2 bên phải giữ nguyên 100% width không bị reflow khi kéo slider (clip-path, CROP not RESIZE). Non-Interactive
 2. Card Bản `Before` Only, Ưu tiên Interactive nếu có thể. Border Card màu đỏ
 3. Card Bản `After` Only, Ưu tiên Interactive nếu có thể. Border Card màu xanh lục
 - ONLY ALWAYS Show use case có visual ở cả 3 Cards(Card 1 chỉ là bản copy paste của 2 Cards kia) mà bất kì người thường nào nhìn cũng thấy rõ/hiểu sự khác biệt (không khó hiểu, không technical). Ít text phân tích nhất có thể (Annotation hay Text gốc nằm trong nội dung của Visual thì không tính)
