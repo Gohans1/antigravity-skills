@@ -59,8 +59,7 @@ When the user asks for variants:
 - `🗣️ TÓM LƯỢC & Ý CHÍNH 🗣️` Respond only, đặt trong Callout, center. `max-width`: 40rem
 #### Mockup Visual
 - Mỗi Card: `min-height: 20rem`, `padding: 1rem 1.25rem 3rem`, `overflow: visible`
-- Direct Annotation: Viền dashed (dùng color phù hợp) + tag mini cắm thẳng trên visual ở tất cả các Card(đồng bộ consistant tag)
-- Inspector Toggle:  `[ 🔍 Check Diff ]`:`position: fixed`; `bottom: 1.5rem`; `right: 1.5rem` : ON(default): Hiện viền, tag. OFF: Ẩn
+- Inspector Toggle:  `[ 🔍 Check Diff ]`:`position: fixed`; `bottom: 1.5rem`; `right: 1.5rem` : ON(default): Hiện viền, tag. OFF: Ẩn (Chỉ hiển thị ở tab Tóm Lược có chứa Mockup visual diff, tự động ẩn ở tab Giải Thích Chi Tiết)
 
 ### Tab Explain:
 - Nếu phải explain những thứ không liên quan đến code thì vẫn hãy cứ tuân thủ theo `Zoom-in principle`, 
@@ -331,7 +330,7 @@ Place each visual next to the short text it supports. Keep only the calls, files
     </section>
   </div>
 
-  <!-- Nút Inspector Toggle Fixed (Tự động ẩn/hiện theo sự xuất hiện của Diff) -->
+  <!-- Nút Inspector Toggle Fixed (Chỉ hiện ở tab Tóm Lược để soi Mockup Diff, tự động ẩn ở tab Giải Thích Chi Tiết) -->
   <button id="inspector-toggle" onclick="toggleDiff()">
     <span>🔍 Check Diff</span>
     <span id="diffStatusTag">[BẬT]</span>
